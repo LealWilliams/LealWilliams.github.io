@@ -17,7 +17,7 @@
     --Table1: #575757;
     --Table2: #696969;
     --TableBorder: #AAA;
-    --BannerColour: #0b56c0;
+    --BannerColour: #144fa1;
     --TitleColour: #ffffff;
     --TextColour: #F0F0F0;
     font-family: Georgia, Times, 'Times New Roman', serif;
@@ -53,7 +53,7 @@ footer {
     color: #BBB;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: Arial, Helvetica, sans-serif;
     color: var(--TitleColour);
     text-align: center;
@@ -162,6 +162,20 @@ footer ul {
     align-self: center;
 }
 
+.projectImage {
+    border-radius: 4px;
+    margin: 16px;
+    padding: 6px;
+    aspect-ratio: 16 / 7;
+    width: 400px;
+    max-width: 40%;
+    max-height: fit-content;
+    background-color: #444449;
+    border: 2px solid #777;
+    box-shadow: 0px 0px 6px #000;
+    align-self: center;
+}
+
 /* End of Projects Showcase */
 
 form {
@@ -218,7 +232,7 @@ form textarea {
 }
 
 .centralText {
-    text-align:center;
+    text-align: center;
 }
 .submit {
     width: 40%;
@@ -235,11 +249,16 @@ form textarea {
     justify-content: center;
     align-items: center;
 }
+.centraliseobject {
+    align-self: center;
+    justify-self: center;
+}
 .video {
     max-width: 400px;
     max-height: 225px;
     border-radius: 4px;
     box-shadow: 0 0 5px;
+    margin: 8px;
 }
 
 #myPicture {
@@ -261,6 +280,11 @@ form textarea {
     text-shadow: 0px 0px 8px #000;
     font-size: xx-large;
 }
+header a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
 #content {
     margin-top: 128px;
     min-width: 360px;
@@ -280,5 +304,4 @@ form textarea {
 }
 #content p {
     max-width: 800px;
-
 }
